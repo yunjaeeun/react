@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script>
+        // 태그 요소를 만듦(요소 노드, 어트리뷰트 노드, 텍스트 노드)
+        // -> <h1 id='greeting'>hello world!</h1>
+        // 렌더링 과정에서 리액트는 이 엘리먼트를 실제 DOM 엘리먼트로 변환한다.
+
+
+        const greetingElement = React.createElement('h1', {className: 'greeting', id: 'greeting'}, 'hello world')
+        const textElement = React.createElement('h3', {id: 'name'}, '안녕하세요 홍길동입니다.')
+
+        /* 
+            React 16버전 이전의 리액트는 한 엘리먼트만 렌더링 할 수 있었지만,
+            이후 버전에서는 배열을 렌더링 할 수도 있다.
+        */
+        
+        ReactDOM.createRoot(document.getElementById('root')).render([greetingElement, textElement])
+    </script>
+</body>
+</html>
