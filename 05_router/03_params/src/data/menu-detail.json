@@ -1,0 +1,233 @@
+[
+    {
+      "menuCode": 1,
+      "menuName": "메뉴 이름 1",
+      "menuPrice": 4000,
+      "categoryName": "카테고리 A",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 1의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/1.PNG"
+      }
+    },
+    {
+      "menuCode": 2,
+      "menuName": "메뉴 이름 2",
+      "menuPrice": 4100,
+      "categoryName": "카테고리 B",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 2의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/2.PNG"
+      }
+    },
+    {
+      "menuCode": 3,
+      "menuName": "메뉴 이름 3",
+      "menuPrice": 4200,
+      "categoryName": "카테고리 C",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 3의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/3.PNG"
+      }
+    },
+    {
+      "menuCode": 4,
+      "menuName": "메뉴 이름 4",
+      "menuPrice": 4300,
+      "categoryName": "카테고리 A",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 4의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/4.PNG"
+      }
+    },
+    {
+      "menuCode": 5,
+      "menuName": "메뉴 이름 5",
+      "menuPrice": 4400,
+      "categoryName": "카테고리 B",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 5의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/5.PNG"
+      }
+    },
+    {
+      "menuCode": 6,
+      "menuName": "메뉴 이름 6",
+      "menuPrice": 4500,
+      "categoryName": "카테고리 C",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 6의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/6.PNG"
+      }
+    },
+    {
+      "menuCode": 7,
+      "menuName": "메뉴 이름 7",
+      "menuPrice": 4600,
+      "categoryName": "카테고리 A",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 7의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/7.PNG"
+      }
+    },
+    {
+      "menuCode": 8,
+      "menuName": "메뉴 이름 8",
+      "menuPrice": 4700,
+      "categoryName": "카테고리 B",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 8의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/8.PNG"
+      }
+    },
+    {
+      "menuCode": 9,
+      "menuName": "메뉴 이름 9",
+      "menuPrice": 4800,
+      "categoryName": "카테고리 C",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 9의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/9.PNG"
+      }
+    },
+    {
+      "menuCode": 10,
+      "menuName": "메뉴 이름 10",
+      "menuPrice": 4900,
+      "categoryName": "카테고리 A",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 10의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/10.PNG"
+      }
+    },
+    {
+      "menuCode": 11,
+      "menuName": "메뉴 이름 11",
+      "menuPrice": 5000,
+      "categoryName": "카테고리 B",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 11의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/11.PNG"
+      }
+    },
+    {
+      "menuCode": 12,
+      "menuName": "메뉴 이름 12",
+      "menuPrice": 5100,
+      "categoryName": "카테고리 C",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 12의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/12.PNG"
+      }
+    },
+    {
+      "menuCode": 13,
+      "menuName": "메뉴 이름 13",
+      "menuPrice": 5200,
+      "categoryName": "카테고리 A",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 13의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/13.PNG"
+      }
+    },
+    {
+      "menuCode": 14,
+      "menuName": "메뉴 이름 14",
+      "menuPrice": 5300,
+      "categoryName": "카테고리 B",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 14의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/14.PNG"
+      }
+    },
+    {
+      "menuCode": 15,
+      "menuName": "메뉴 이름 15",
+      "menuPrice": 5400,
+      "categoryName": "카테고리 C",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 15의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/15.PNG"
+      }
+    },
+    {
+      "menuCode": 16,
+      "menuName": "메뉴 이름 16",
+      "menuPrice": 5500,
+      "categoryName": "카테고리 A",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 16의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/16.PNG"
+      }
+    },
+    {
+      "menuCode": 17,
+      "menuName": "메뉴 이름 17",
+      "menuPrice": 5600,
+      "categoryName": "카테고리 B",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 17의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/17.PNG"
+      }
+    },
+    {
+      "menuCode": 18,
+      "menuName": "메뉴 이름 18",
+      "menuPrice": 5700,
+      "categoryName": "카테고리 C",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 18의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/18.PNG"
+      }
+    },
+    {
+      "menuCode": 19,
+      "menuName": "메뉴 이름 19",
+      "menuPrice": 5800,
+      "categoryName": "카테고리 A",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 19의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/19.PNG"
+      }
+    },
+    {
+      "menuCode": 20,
+      "menuName": "메뉴 이름 20",
+      "menuPrice": 5900,
+      "categoryName": "카테고리 B",
+      "isOrderable": false,
+      "detail": {
+        "description": "메뉴 20의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/20.PNG"
+      }
+    },
+    {
+      "menuCode": 21,
+      "menuName": "메뉴 이름 21",
+      "menuPrice": 6000,
+      "categoryName": "카테고리 C",
+      "isOrderable": true,
+      "detail": {
+        "description": "메뉴 21의 상세 설명입니다. 맛과 품질이 뛰어납니다.",
+        "image": "/images/21.PNG"
+      }
+    }
+  ]

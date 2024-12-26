@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <!-- 
+        컴포넌트의 라이프 사이클 메소드는 총 9가지가 있다.
+        라이프 사이클은 총 3가지 카테고리인 마운트, 업데이트, 언마운트로 나뉜다.
+
+        마운드: DOM이 생성되고 웹 브라우저상 나타내는 것을 마운트라고 한다.
+        업데이트: 캄포넌트의 상태가 바뀌는 경우를 의미하며, 총 4가지의 업데이트 상황이 있다.
+                props변경, state 변경, 부모 컴포넌트 리렌더링, this.forceUpdate로 강제 렌더링 트리거
+        언마운트: 컴포넌트를 DOM에서 제거하는 것을 언마운트(unMount)라고 한다.
+
+        각 카테고리별 동작하는 라이플사이클 메소드의 흐름을 보며 하나씩 확인해보자
+        먼저 마운트 카테고리의 생명주기 메소드를 확인할 것이다.
+
+        마운트 시
+            constructor -> getDeriveredStateFormProps -> render -> componentDidMount 순으로 호출이 된다.
+    -->
+    <div id="root"></div>
+
+    <script type="text/babel">
+        
+        class Greeting extends React.Component {
+
+            constructor(props) {
+                super(props)
+            }
+
+            render() {
+                return (
+                    <>
+                    </>
+                )
+            }
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(
+            <Greeting/>
+        )
+    </script>
+</body>
+</html>
